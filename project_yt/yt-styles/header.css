@@ -51,7 +51,7 @@
     box-shadow: inset 1px 2px 5px rgba(0 ,0 ,0,0.05);
 }
 .search-bar::placeholder{
-    font-family: Roboto,arial;
+  
     font-size: 16px;
     padding-left:10px;
 }

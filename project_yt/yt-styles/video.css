@@ -21,13 +21,30 @@
 }
 .video-grid{
     display: grid;
+
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+   
 }
 
+@media (max-width:770px){
+ .video-grid{
+    grid-template-columns: 1fr 1fr;
+ }
 
-
+}
+@media(min-width:771px)and(max-width:999px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+     }
+}
+@media(min-width:1000px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+    
+}
 .profile-pic {
     width: 36px;
 
@@ -56,7 +73,7 @@
     position: absolute;
     bottom: 8px;
     right: 5px;
-    font-family: Roboto,Arial, Helvetica, sans-serif;
+  
     font-size: 12px;
     font-weight: 500;
     padding: 4px;
